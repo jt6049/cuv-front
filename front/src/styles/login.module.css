@@ -1,0 +1,31 @@
+.rightContainer {
+    background-color: red;
+    height: 100vh;
+    width: 50vw;
+  }
+  .leftContainer {
+    width: '50vw';
+    height: '100vh';
+    display: 'flex';
+    flex-direction: 'column';
+    justify-content: 'center';
+    align-items: 'start';
+    padding-left: '100px';
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column-reverse;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .leftContainer {
+      width: 100vw;
+      padding-left: 10px;
+    }
+    .rightContainer {
+      height: 10vh;
+      width: 100vw;
+    }
+  }
+  
