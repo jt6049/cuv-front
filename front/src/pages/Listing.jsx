@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/navbar";
+import Navbar from "../Components/Navbar";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 
 export default function Listing() {
